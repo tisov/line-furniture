@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Art-Furniture</title>
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Roboto:400,500,700" rel="stylesheet" type="text/css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<!-- header -->
+<header class="header">
+  <!-- header top -->
+  <div class="header-top">
+    <div class="container">
+      <div class="row">
+        <!-- welcome message -->
+        <div class="col-md-4 d-none d-md-block">
+          <div class="welcome-msg">Welcome you to LineFurniture</div>
+        </div>
+        <!-- top links -->
+        <div class="col-md-8">
+          <div class="top-links">
+            <div class="option has-dropdown">
+              <a href="#" class="arr-down">US Dollar</a>
+              <ul class="drop-menu">
+                <li><a href="#">EUR</a></li>
+                <li><a href="#">USD</a></li>
+                <li><a href="#">BTD</a></li>
+              </ul>
+            </div>
+            <div class="option option-last has-dropdown">
+              <a href="#" class="arr-down">English</a>
+              <ul class="drop-menu">
+                <li><a href="#">German</a></li>
+                <li><a href="#">French</a></li>
+                <li><a href="#">Spanish</a></li>
+              </ul>
+            </div>
+            <div class="account-links">
+              <a href="account.html">My Account</a>
+              <a href="wishlist.html">My Wish List</a>
+              <a href="account.html">Sign In</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header middle -->
+  <div class="header-middle">
+    <div class="container">
+      <div class="row">
+        <!-- logo -->
+        <div class="col-md-3">
+          <a href="index.html" class="logo">
+            <img src="image/icon/logo.png" height="44" alt="">
+          </a>
+        </div>
+        <!-- email -->
+        <div class="col-md-3 d-none d-md-block">
+          <div class="email">
+            <div class="icon">
+              <img src="image/icon/email.png" alt="">
+              <div class="mail">admin@support.com</div>
+            </div>
+          </div>
+        </div>
+        <!-- search side -->
+        <div class="col-md-6">
+          <div class="search-side">
+            <!-- search form -->
+            <form action="#" class="search-form" method="get">
+              <input type="text" class="sf-input" placeholder="Search for item...">
+              <button class="sf-btn">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+            <!-- shopping cart -->
+            <div class="shop-cart">
+              <a class="sc-info">
+                <span class="sc-icon">
+                  <img src="image/icon/cart.png" alt="">
+                  <span class="qty">2</span>
+                </span>
+                <div class="sc-title">My Cart</div>
+              </a>
+              <!-- dropdown  -->
+              <div class="drop-cart">
+                <div class="dc-info">
+                  <div class="dc-amount">
+                    <span class="total-item">
+                      <span class="count">2</span>
+                      <span>items</span>
+                    </span>
+                    <div class="amount">
+                      <div class="title">Cart Subtotal :</div>
+                      <div class="price">$160.00</div>
+                    </div>
+                  </div>
+                  <a href="cart.html" class="dc-checkout btn-gray">
+                    go to checkout
+                  </a>
+                </div>
+                <ul class="dc-product-list">
+                  <li class="product">
+                    <a href="product-detail.html" class="p-image">
+                      <img src="image/cart/s-1.jpg" alt="">
+                    </a>
+                    <div class="p-info">
+                      <a href="product-detail.html" class="p-title">
+                        Crown Summit Backpack
+                      </a>
+                      <span class="p-price">$38.00</span>
+                      <div class="p-qty">
+                        <label>Qty</label>
+                        <input type="text" value="1">
+                        <button>
+                          <i class="far fa-trash-alt"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="product">
+                    <a href="product-detail.html" class="p-image">
+                      <img src="image/cart/s-2.jpg" alt="">
+                    </a>
+                    <div class="p-info">
+                      <a href="product-detail.html" class="p-title">
+                        Crown Summit Backpack
+                      </a>
+                      <span class="p-price">$38.00</span>
+                      <div class="p-qty">
+                        <label>Qty</label>
+                        <input type="text" value="1">
+                        <button>
+                          <i class="far fa-trash-alt"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <div class="dc-viewcart-btn">
+                  <a href="cart.html" class="btn-gray">
+                    view cart on edit cart
+                  </a>
+                </div>
+              </div>
+              
+            </div>
+            <!-- mobile menu button -->
+            <div class="menu-btn d-flex d-lg-none">
+              <span class="line1"></span>
+              <span class="line2"></span>
+              <span class="line3"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header bottom -->
+  <div class="header-bottom d-none d-lg-block">
+    <div class="container">
+      <nav class="desktop-menu">
+        <ul class="menu">
+          <li class="active">
+            <a href="index.html">home</a>
+          </li>
+          <li class="has-dropdown">
+            <a href="shop.html">megamenu</a>
+            <ul class="drop-menu column-3">
+              <li>
+                <div class="col-title">beds</div>
+                <a href="shop.html">platform beds</a>
+                <a href="shop.html">storage beds</a>
+                <a href="shop.html">regular beds</a>
+                <a href="shop.html">sleigh beds</a>
+                <a href="shop.html">modern beds</a>
+              </li>
+              <li>
+                <div class="col-title">nightstands</div>
+                <a href="shop.html">wooden stand</a>
+                <a href="shop.html">storage stand</a>
+                <a href="shop.html">barrel stand</a>
+                <a href="shop.html">black stand</a>
+                <a href="shop.html">bedside stand</a>
+              </li>
+              <li>
+                <div class="col-title">interior</div>
+                <a href="shop.html">plastic cabinet</a>
+                <a href="shop.html">wooden doors</a>
+                <a href="shop.html">kitchen item</a>
+                <a href="shop.html">wooden floors</a>
+                <a href="shop.html">bathroom tiles</a>
+              </li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a href="shop.html">shop</a>
+            <ul class="drop-menu">
+              <li><a href="shop.html">shop page</a></li>
+              <li><a href="product-detail.html">product details</a></li>
+              <li><a href="cart.html">cart page</a></li>
+              <li><a href="wishlist.html">wishlist page</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">about us</a></li>
+          <li class="has-dropdown">
+            <a href="#">pages</a>
+            <ul class="drop-menu">
+              <li><a href="about.html">about</a></li>
+              <li><a href="product-detail.html">product detail</a></li>
+              <li><a href="shop.html">shop page</a></li>
+              <li><a href="cart.html">cart</a></li>
+              <li><a href="wishlist.html">wishlist</a></li>
+              <li><a href="account.html">account</a></li>
+              <li><a href="contact.html">contact</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- mobile menu -->
+<div class="container d-lg-none">
+  <nav class="mobile-menu"></nav>
+</div>
+<!-- breadcrump -->
+<nav class="breadcrump-section bg-dark">
+  <div class="container">
+    <ul class="breadcrump">
+      <li class="bc_item">
+        <a href="index.html">home</a>
+      </li>
+      <li class="bc_item active">about us</li>
+    </ul>
+  </div>
+</nav>
+<!-- about / skill section -->
+<section class="about-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h2>about art-furniture</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eius mod tempor incididunt ut labore et dolore magna aliqua Ut enim ad mini KJd veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea coz consequat. Duis aute irure dolor in reprehenderit in voluptate velit se ckh dolore eu fugiat nulla pariatur.
+          <br>
+          <br>
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde ipsunms omnis iste natus error sit voluptatem acc there are lots of product in our page. Anyone can find it easily.
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <h2>our skill</h2>
+        <ul class="skillbar">
+          <li class="skillbar-item">
+            <div class="name">investment</div>
+            <div class="progress">
+              <div class="progress-bar wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="1.2s" style="width: 80%;">
+                <span class="progress-bar-count">80%</span>
+              </div>
+            </div>
+          </li>
+          <li class="skillbar-item">
+            <div class="name">consulting</div>
+            <div class="progress">
+              <div class="progress-bar wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="1.2s" style="width: 90%;">
+                <span class="progress-bar-count">90%</span>
+              </div>
+            </div>
+          </li>
+          <li class="skillbar-item">
+            <div class="name">management</div>
+            <div class="progress">
+              <div class="progress-bar wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="1.2s" style="width: 70%;">
+                <span class="progress-bar-count">70%</span>
+              </div>
+            </div>
+          </li>
+          <li class="skillbar-item">
+            <div class="name">planning</div>
+            <div class="progress">
+              <div class="progress-bar wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="1.2s" style="width: 95%;">
+                <span class="progress-bar-count">95%</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- team section -->
+<section class="team-section">
+  <div class="container">
+    <div class="sec-title">
+      <span>meet our team</span>
+      <h2>
+        <span>our member</span>
+      </h2>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="single-team">
+          <div class="st_image">
+            <img src="image/team/1.png" alt="">
+          </div>
+          <div class="st_hover">
+            <h4>John F.Burden</h4>
+            <div class="post">Executive</div>
+            <div class="links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fas fa-rss"></i></a>
+              <a href="#"><i class="fab fa-google-plus-g"></i></a>
+              <a href="#"><i class="fab fa-pinterest-p"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="single-team">
+          <div class="st_image">
+            <img src="image/team/2.png" alt="">
+          </div>
+          <div class="st_hover">
+            <h4>John F.Burden</h4>
+            <div class="post">Executive</div>
+            <div class="links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fas fa-rss"></i></a>
+              <a href="#"><i class="fab fa-google-plus-g"></i></a>
+              <a href="#"><i class="fab fa-pinterest-p"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="single-team">
+          <div class="st_image">
+            <img src="image/team/3.png" alt="">
+          </div>
+          <div class="st_hover">
+            <h4>John F.Burden</h4>
+            <div class="post">Executive</div>
+            <div class="links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fas fa-rss"></i></a>
+              <a href="#"><i class="fab fa-google-plus-g"></i></a>
+              <a href="#"><i class="fab fa-pinterest-p"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- footer -->
+<footer class="footer">
+  <!-- footer top -->
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <!-- col 1 -->
+        <div class="col-lg-3 col-md-5">
+          <div class="footer-contact footer-widget">
+            <div class="fc_logo">
+              <a href="#">
+                <img src="image/logo-2.png" height="44" height="44" alt="">
+              </a>
+            </div>
+            <ul class="fc_info">
+              <li>Addres: No 123 - Furniture Street, USA</li>
+              <li>Phone 1: +(800) 123 456 789</li>
+              <li>Phone 2: +(700) 123 456 7890</li>
+              <li>Fax: (800) 123 456 789</li>
+              <li>Email: contact@mail.com</li>
+            </ul>
+          </div>
+        </div>
+        <!-- col 2 -->
+        <div class="col-lg-2 col-md-3">
+          <div class="footer-links footer-widget">
+            <h4>about us</h4>
+            <ul class="fl-list">
+              <li><a href="#">site map</a></li>
+              <li><a href="#">special</a></li>
+              <li><a href="#">delivery information</a></li>
+              <li><a href="#">order history</a></li>
+              <li><a href="#">privacy policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- col 3 -->
+        <div class="col-lg-2 col-md-4">
+          <div class="footer-links footer-widget">
+            <h4>information</h4>
+            <ul class="fl-list">
+              <li><a href="#">my account</a></li>
+              <li><a href="#">gift cards</a></li>
+              <li><a href="#">return policy</a></li>
+              <li><a href="#">your orders</a></li>
+              <li><a href="#">subway</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- col 4 -->
+        <div class="col-lg-2 col-md-3">
+          <div class="footer-links footer-widget">
+            <h4>my account</h4>
+            <ul class="fl-list">
+              <li><a href="#">my account</a></li>
+              <li><a href="#">checkout</a></li>
+              <li><a href="#">login</a></li>
+              <li><a href="#">order status</a></li>
+              <li><a href="#">site map</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- col 5 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-newsletter footer-widget">
+            <h4>sign up newsletter</h4>
+            <p>
+              Be the first to hear about new trending and offers and see how you have helped 
+            </p>
+            <form action="#">
+              <input type="email" name="email" class="email" placeholder="Enter your email...">
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer bottom -->
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <!-- copyright -->
+        <div class="col-lg-4 col-md-6">
+          <span class="copyright">
+            Copyright &copy; 2018 LineFurniture. All right reserved.
+          </span>
+        </div>
+        <!-- social links -->
+        <div class="col-lg-4 col-md-2">
+          <div class="social-link">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <!-- payment -->
+        <div class="col-lg-4 col-md-4">
+          <div class="payment-image">
+            <img src="image/payment.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- scroll top -->
+<a href="#" id="scroll-top">
+  <i class="fas fa-chevron-up"></i>
+</a>
+<!-- plugins -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/slick.min.js"></script>
+<!-- custom scripts -->
+<script src="js/main.js"></script>
+</body>
+</html>

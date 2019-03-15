@@ -1,0 +1,20 @@
+{
+  "name": "art_furnite",
+  "version": "1.0.0",
+  "description": "html template",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anuar",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "browser-sync": "^2.26.3",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-less": "^4.0.1",
+    "gulp-plumber": "^1.2.0"
+  }
+}
